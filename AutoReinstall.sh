@@ -149,7 +149,7 @@ function Start() {
   if [ -f "/tmp/Core_Install.sh" ]; then
     rm -f /tmp/Core_Install.sh
   fi
-  wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://www.815494.com/html/shell/dd/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
+  wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://github.com/biux0x/DD/blob/main/Core_Install.sh' && chmod a+x /tmp/Core_Install.sh
   
   CMIRROR=''
   CVMIRROR=''
